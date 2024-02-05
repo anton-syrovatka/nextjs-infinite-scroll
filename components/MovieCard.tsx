@@ -39,7 +39,7 @@ function MovieCard({ movie, index }: Prop) {
       viewport={{ amount: 0 }}
       className="max-w-sm rounded relative w-full"
     >
-      <div className="relative w-full h-[37vh]">
+      <div className="relative w-full h-[45vh]">
         <Image
           src={`${baseUrl}${movie.poster_path}`}
           alt={movie.title}
